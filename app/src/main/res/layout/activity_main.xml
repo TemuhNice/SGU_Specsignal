@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A8A8A"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/horn3l"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:onClick="horn3Long"
+        android:text="@string/horn2_long"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horn2l2"
+        tools:ignore="DuplicateSpeakableTextCheck,OnClick,UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/suetutext"
+        android:layout_width="361dp"
+        android:layout_height="57dp"
+        android:background="#000000"
+        android:clickable="false"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/suetutext"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="#СУЕТУ НАВЕСТИ ОХОТА" />
+
+    <Button
+        android:id="@+id/horn1s"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/horn1_short"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/suetutext"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/horn1l"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:onClick="horn1Long"
+        android:text="@string/horn1_long"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/suetutext"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/horn2l2"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:onClick="horn2Long"
+        android:text="@string/horn2_long"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horn1l"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/horn2s2"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/horn2_short"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horn1s"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/horn3s"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/horn3_short"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horn2s2" />
+
+    <Button
+        android:id="@+id/sirenset2"
+        android:layout_width="71dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="45dp"
+        android:backgroundTint="#FF0000"
+        android:text="2"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="60pt"
+        app:layout_constraintEnd_toStartOf="@+id/sirenset3"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toEndOf="@+id/sirenset1"
+        app:layout_constraintTop_toBottomOf="@+id/horn3l" />
+
+    <Button
+        android:id="@+id/sirenset1"
+        android:layout_width="71dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FF0000"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="60pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horn3l" />
+
+    <Button
+        android:id="@+id/sirenset3"
+        android:layout_width="71dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#FF0000"
+        android:text="3"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="60pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horn3s" />
+
+    <LinearLayout
+        android:id="@+id/sirenGroup1"
+        android:layout_width="361dp"
+        android:layout_height="173dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/siren2"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="25dp"
+                android:text="@string/siren_2"
+                tools:ignore="UsingOnClickInXml" />
+
+            <Button
+                android:id="@+id/siren1"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="@string/siren_1"
+                tools:ignore="UsingOnClickInXml" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@+id/siren3"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="25dp"
+                android:onClick="siren3"
+                android:text="@string/siren_3" />
+
+            <Button
+                android:id="@+id/siren4"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:onClick="siren4"
+                android:text="@string/siren_4" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

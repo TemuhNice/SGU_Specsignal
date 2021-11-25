@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">SGU</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="horn1_long" translatable="false" tools:ignore="Typos">HORN1 LONG</string>
+    <string name="horn1_short" translatable="false" tools:ignore="Typos">HORN1 SHORT</string>
+    <string name="horn2_short" translatable="false">HORN2 SHORT</string>
+    <string name="suetutext">#СУЕТУ НАВЕСТИ ОХОТА</string>
+    <string name="siren_2">SIREN 2</string>
+    <string name="siren_3">SIREN 3</string>
+    <string name="siren_4">SIREN 4</string>
+    <string name="horn2_long">HORN2 LONG</string>
+    <string name="horn3_short">HORN3 SHORT</string>
+    <string name="siren1" tools:ignore="Typos">SIREN1</string>
+    <string name="siren_1">SIREN 1</string>
+</resources>
